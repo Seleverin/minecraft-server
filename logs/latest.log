@@ -1,0 +1,11 @@
+[18:01:53] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.3
+[18:01:53] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.18.3
+	   \-- mixinextras 0.5.0
+	- java 23
+	- minecraft 1.21.11
+[18:01:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/User/OneDrive/Desktop/servers/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:01:54] [main/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[18:01:54] [main/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[18:01:54] [main/INFO]: Disabling further attempts to query Paging File.
+[18:01:55] [main/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
