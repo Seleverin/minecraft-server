@@ -13,6 +13,4 @@ git pull
 
 java -Xmx2G -jar fabric-server.jar nogui
 
-update.bat
-
 pause
