@@ -1,17 +1,31 @@
 {
   "stats": {
+    "minecraft:used": {
+      "minecraft:sweet_berries": 1
+    },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 3165,
-      "minecraft:time_since_rest": 10029,
-      "minecraft:fall_one_cm": 300,
-      "minecraft:walk_one_cm": 5840,
-      "minecraft:total_world_time": 10029,
-      "minecraft:leave_game": 1,
-      "minecraft:fly_one_cm": 5742,
-      "minecraft:sneak_time": 46,
-      "minecraft:play_time": 10029,
-      "minecraft:jump": 12,
-      "minecraft:time_since_death": 10029
+      "minecraft:time_since_rest": 8012,
+      "minecraft:walk_one_cm": 9767,
+      "minecraft:leave_game": 5,
+      "minecraft:damage_taken": 20,
+      "minecraft:play_time": 8012,
+      "minecraft:jump": 28,
+      "minecraft:time_since_death": 8012,
+      "minecraft:sprint_one_cm": 19873,
+      "minecraft:fall_one_cm": 1400,
+      "minecraft:total_world_time": 8012,
+      "minecraft:fly_one_cm": 4063,
+      "minecraft:crouch_one_cm": 386,
+      "minecraft:sneak_time": 62
+    },
+    "minecraft:picked_up": {
+      "minecraft:brown_mushroom": 2,
+      "minecraft:sweet_berries": 38
+    },
+    "minecraft:mined": {
+      "minecraft:brown_mushroom": 2,
+      "minecraft:sweet_berry_bush": 16,
+      "minecraft:spruce_leaves": 2
     }
   },
   "DataVersion": 4671
