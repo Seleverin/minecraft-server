@@ -4,7 +4,7 @@ git pull
 
 git add .
 
-git status --raw
+git status --short
 
 git commit -m "update server: new instance"
 
