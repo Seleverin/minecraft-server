@@ -22,8 +22,10 @@
       "minecraft:snowy_plains": "2025-12-22 20:17:04 +0100",
       "minecraft:lush_caves": "2025-12-22 21:46:00 +0100",
       "minecraft:snowy_taiga": "2025-12-22 20:16:51 +0100",
+      "minecraft:old_growth_birch_forest": "2025-12-24 16:54:39 +0100",
       "minecraft:frozen_ocean": "2025-12-22 20:23:30 +0100",
       "minecraft:frozen_river": "2025-12-22 20:15:20 +0100",
+      "minecraft:ocean": "2025-12-24 16:53:26 +0100",
       "minecraft:grove": "2025-12-22 20:15:47 +0100",
       "minecraft:plains": "2025-12-22 20:24:13 +0100"
     },
@@ -138,6 +140,7 @@
       "rotten_flesh": "2025-12-22 20:52:17 +0100",
       "cooked_mutton": "2025-12-22 20:52:44 +0100",
       "cooked_cod": "2025-12-22 22:36:14 +0100",
+      "sweet_berries": "2025-12-24 15:54:03 +0100",
       "cooked_beef": "2025-12-22 21:28:27 +0100",
       "cooked_salmon": "2025-12-22 22:06:58 +0100"
     },
@@ -938,7 +941,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-12-22 21:26:42 +0100",
-      "minecraft:zombie": "2025-12-22 21:34:09 +0100"
+      "minecraft:zombie": "2025-12-22 21:34:09 +0100",
+      "minecraft:drowned": "2025-12-24 17:17:33 +0100"
     },
     "done": false
   },
@@ -1545,6 +1549,90 @@
   "minecraft:recipes/decorations/light_gray_candle": {
     "criteria": {
       "has_light_gray_dye": "2025-12-22 22:35:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-12-24 16:47:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-12-24 16:47:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-12-24 16:47:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-12-24 16:51:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-12-24 16:51:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-12-24 17:17:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-12-24 17:17:07 +0100"
     },
     "done": true
   },
