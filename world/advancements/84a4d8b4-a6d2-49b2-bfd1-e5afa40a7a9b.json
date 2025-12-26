@@ -2791,21 +2791,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "has_cut_copper_stairs": "2025-12-25 23:09:11 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_honeycomb": {
-    "criteria": {
-      "has_cut_copper_slab": "2025-12-25 23:11:07 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting": {
-    "criteria": {
-      "has_cut_copper": "2025-12-25 23:09:08 +0100"
+      "wheat": "2025-12-25 22:33:53 +0100"
     },
     "done": true
   },
@@ -2815,15 +2803,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
-      "has_snowball": "2025-12-25 23:14:40 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
-    "criteria": {
-      "has_cut_copper": "2025-12-25 23:09:08 +0100"
+      "has_beetroot": "2025-12-25 22:34:03 +0100"
     },
     "done": true
   },
@@ -2863,18 +2845,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_copper": {
-    "criteria": {
-      "has_cut_copper_slab": "2025-12-25 23:11:07 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_copper_from_cut_copper_stonecutting": {
-    "criteria": {
-      "has_cut_copper": "2025-12-25 23:09:08 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
       "has_copper_block": "2025-12-25 23:08:48 +0100"
@@ -2887,33 +2857,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2025-12-25 22:34:03 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_copper_slab": {
-    "criteria": {
-      "has_cut_copper": "2025-12-25 23:09:08 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/copper_grate": {
     "criteria": {
       "has_copper_block": "2025-12-25 23:08:48 +0100"
     },
     "done": true
   },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2025-12-25 22:33:53 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2025-12-25 23:08:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2025-12-25 23:09:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_cut_copper": "2025-12-25 23:09:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2025-12-25 23:09:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab": {
+    "criteria": {
+      "has_cut_copper": "2025-12-25 23:09:08 +0100"
     },
     "done": true
   },
@@ -2926,6 +2902,30 @@
   "minecraft:recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting": {
     "criteria": {
       "has_cut_copper": "2025-12-25 23:09:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb": {
+    "criteria": {
+      "has_cut_copper_stairs": "2025-12-25 23:09:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_honeycomb": {
+    "criteria": {
+      "has_cut_copper_slab": "2025-12-25 23:11:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper": {
+    "criteria": {
+      "has_cut_copper_slab": "2025-12-25 23:11:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-12-25 23:14:40 +0100"
     },
     "done": true
   },
