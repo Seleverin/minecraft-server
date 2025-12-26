@@ -84,9 +84,12 @@
     "criteria": {
       "minecraft:cave_spider": "2025-12-22 20:35:54 +0100",
       "minecraft:skeleton": "2025-12-22 20:03:05 +0100",
+      "minecraft:zombie_horse": "2025-12-26 21:41:34 +0100",
+      "minecraft:enderman": "2025-12-26 20:05:56 +0100",
       "minecraft:spider": "2025-12-22 19:58:21 +0100",
       "minecraft:zombie": "2025-12-22 19:39:33 +0100",
       "minecraft:creeper": "2025-12-22 19:57:02 +0100",
+      "minecraft:drowned": "2025-12-26 19:18:08 +0100",
       "minecraft:zombie_villager": "2025-12-25 21:46:08 +0100"
     },
     "done": false
@@ -2932,6 +2935,84 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2025-12-25 23:14:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2025-12-26 20:27:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2025-12-26 20:27:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2025-12-26 20:27:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-26 20:42:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-26 20:42:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-26 20:42:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-26 20:42:44 +0100"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/tools/calendar": {
+    "criteria": {
+      "has_clock": "2025-12-26 21:15:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-12-26 21:16:02 +0100"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/redstone/season_sensor": {
+    "criteria": {
+      "has_calendar": "2025-12-26 21:16:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-12-26 21:40:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-12-26 21:40:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-12-26 21:40:11 +0100"
     },
     "done": true
   },
