@@ -51,7 +51,9 @@
     "criteria": {
       "minecraft:pillager": "2025-12-25 21:03:41 +0100",
       "minecraft:skeleton": "2025-12-22 20:02:41 +0100",
+      "minecraft:zombie_horse": "2025-12-27 20:45:23 +0100",
       "minecraft:enderman": "2025-12-22 19:40:33 +0100",
+      "minecraft:witch": "2025-12-27 21:42:05 +0100",
       "minecraft:spider": "2025-12-22 20:18:05 +0100",
       "minecraft:zombie": "2025-12-22 20:17:07 +0100",
       "minecraft:creeper": "2025-12-22 20:01:03 +0100",
@@ -2964,6 +2966,66 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2025-12-26 20:54:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-12-27 21:25:58 +0100"
     },
     "done": true
   },
