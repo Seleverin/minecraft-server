@@ -24,6 +24,7 @@
       "minecraft:snowy_plains": "2025-12-22 20:05:23 +0100",
       "minecraft:lush_caves": "2025-12-25 21:59:39 +0100",
       "minecraft:snowy_taiga": "2025-12-22 19:47:09 +0100",
+      "minecraft:dripstone_caves": "2025-12-28 23:25:57 +0100",
       "minecraft:deep_cold_ocean": "2025-12-25 10:57:13 +0100",
       "minecraft:frozen_ocean": "2025-12-22 20:05:07 +0100",
       "minecraft:frozen_river": "2025-12-22 19:47:33 +0100",
@@ -109,6 +110,7 @@
       "cooked_chicken": "2025-12-22 19:49:21 +0100",
       "cooked_cod": "2025-12-22 20:01:11 +0100",
       "cooked_salmon": "2025-12-22 19:58:44 +0100",
+      "pumpkin_pie": "2025-12-28 23:35:53 +0100",
       "carrot": "2025-12-25 18:07:10 +0100"
     },
     "done": false
@@ -3206,6 +3208,60 @@
   "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
       "has_kelp": "2025-12-28 15:47:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-12-28 22:31:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-12-28 22:31:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-12-28 22:41:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-12-28 22:41:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2025-12-28 22:46:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2025-12-28 22:46:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-12-28 23:19:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2025-12-28 23:29:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-12-28 23:38:37 +0100"
     },
     "done": true
   },
