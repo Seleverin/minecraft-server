@@ -24,6 +24,7 @@
       "minecraft:stony_shore": "2025-12-22 20:11:52 +0100",
       "minecraft:snowy_plains": "2025-12-22 20:12:50 +0100",
       "minecraft:snowy_taiga": "2025-12-22 20:01:55 +0100",
+      "minecraft:frozen_peaks": "2025-12-28 16:01:22 +0100",
       "minecraft:deep_cold_ocean": "2025-12-25 13:29:34 +0100",
       "minecraft:old_growth_birch_forest": "2025-12-25 13:33:07 +0100",
       "minecraft:frozen_ocean": "2025-12-22 20:11:59 +0100",
@@ -179,9 +180,12 @@
       "minecraft:cave_spider": "2025-12-22 20:59:07 +0100",
       "minecraft:skeleton": "2025-12-22 20:25:57 +0100",
       "minecraft:phantom": "2025-12-22 21:17:37 +0100",
+      "minecraft:enderman": "2025-12-28 15:59:53 +0100",
+      "minecraft:silverfish": "2025-12-28 16:00:52 +0100",
       "minecraft:spider": "2025-12-22 20:50:41 +0100",
       "minecraft:zombie": "2025-12-22 20:02:51 +0100",
-      "minecraft:creeper": "2025-12-25 13:55:39 +0100"
+      "minecraft:creeper": "2025-12-25 13:55:39 +0100",
+      "minecraft:drowned": "2025-12-28 15:47:04 +0100"
     },
     "done": false
   },
@@ -1456,6 +1460,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2025-12-28 15:40:47 +0100",
       "minecraft:chicken": "2025-12-22 21:16:21 +0100"
     },
     "done": false
@@ -2141,6 +2146,144 @@
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2025-12-25 13:57:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-12-28 15:00:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-12-28 15:00:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-12-28 15:03:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2025-12-28 15:14:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-12-28 15:15:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-12-28 15:15:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-12-28 15:15:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-12-28 15:59:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-12-28 15:59:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2025-12-28 16:08:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2025-12-28 16:08:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 16:12:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 16:12:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 16:12:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 16:12:00 +0100"
     },
     "done": true
   },

@@ -31,6 +31,7 @@
       "minecraft:ocean": "2025-12-22 22:51:41 +0100",
       "minecraft:cherry_grove": "2025-12-25 13:41:37 +0100",
       "minecraft:grove": "2025-12-22 19:47:39 +0100",
+      "minecraft:swamp": "2025-12-28 11:29:08 +0100",
       "minecraft:birch_forest": "2025-12-27 20:25:30 +0100",
       "minecraft:plains": "2025-12-22 20:05:04 +0100"
     },
@@ -94,7 +95,9 @@
       "minecraft:zombie": "2025-12-22 19:39:33 +0100",
       "minecraft:creeper": "2025-12-22 19:57:02 +0100",
       "minecraft:drowned": "2025-12-26 19:18:08 +0100",
-      "minecraft:zombie_villager": "2025-12-25 21:46:08 +0100"
+      "minecraft:zombie_villager": "2025-12-25 21:46:08 +0100",
+      "minecraft:bogged": "2025-12-28 11:35:11 +0100",
+      "minecraft:slime": "2025-12-28 11:33:14 +0100"
     },
     "done": false
   },
@@ -3699,6 +3702,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-12-27 23:06:46 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_honey_bottle": {
     "criteria": {
       "has_honey_bottle": "2025-12-27 23:12:19 +0100"
@@ -3711,9 +3720,394 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+  "minecraft:recipes/food/honey_bottle": {
     "criteria": {
-      "has_cobbled_deepslate_slab": "2025-12-27 23:06:46 +0100"
+      "has_honey_block": "2025-12-28 10:19:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-12-28 10:21:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/magenta_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/yellow_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/red_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/green_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/purple_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/white_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/black_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/pink_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/orange_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/cyan_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/brown_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/lime_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-12-28 10:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-12-28 10:30:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "criteria": {
+      "place_dried_ghast_in_water": "2025-12-28 10:36:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-12-28 10:46:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:nautilus": "2025-12-28 11:30:56 +0100",
+      "minecraft:bee": "2025-12-28 10:46:53 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-12-28 10:49:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-12-28 10:49:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2025-12-28 11:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-12-28 11:33:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-12-28 11:33:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-12-28 11:42:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-12-28 12:03:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/orange_bundle": {
+    "criteria": {
+      "has_orange_dye": "2025-12-28 12:32:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2025-12-28 12:32:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_orange_dye": "2025-12-28 12:32:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 12:32:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 12:32:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 12:32:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_orange_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 12:32:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed": {
+    "criteria": {
+      "has_orange_wool": "2025-12-28 12:33:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_banner": {
+    "criteria": {
+      "has_orange_wool": "2025-12-28 12:33:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet": {
+    "criteria": {
+      "has_orange_wool": "2025-12-28 12:33:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2025-12-28 12:47:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-12-28 13:43:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2025-12-28 14:46:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:46:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2025-12-28 14:46:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:46:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:46:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:46:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2025-12-28 14:48:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2025-12-28 14:48:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blue_bundle": {
+    "criteria": {
+      "has_blue_dye": "2025-12-28 14:48:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:48:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:48:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:48:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-12-28 14:48:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-12-28 14:57:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-12-28 14:57:23 +0100"
     },
     "done": true
   },
