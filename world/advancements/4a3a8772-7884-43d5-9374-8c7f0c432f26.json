@@ -32,6 +32,7 @@
       "minecraft:ocean": "2025-12-25 13:23:10 +0100",
       "minecraft:cherry_grove": "2025-12-25 13:18:54 +0100",
       "minecraft:grove": "2025-12-25 10:53:58 +0100",
+      "minecraft:meadow": "2025-12-29 15:20:54 +0100",
       "minecraft:plains": "2025-12-22 20:05:32 +0100"
     },
     "done": false
@@ -3262,6 +3263,12 @@
   "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
       "has_peony": "2025-12-28 23:38:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2025-12-29 15:19:43 +0100"
     },
     "done": true
   },
