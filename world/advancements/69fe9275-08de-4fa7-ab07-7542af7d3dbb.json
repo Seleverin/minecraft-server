@@ -3504,5 +3504,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-12-29 22:19:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-12-29 22:33:48 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
