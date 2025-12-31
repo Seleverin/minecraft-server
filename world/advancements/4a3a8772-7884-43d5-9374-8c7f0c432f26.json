@@ -15,6 +15,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-12-22 22:14:50 +0100",
       "minecraft:flower_forest": "2025-12-25 13:21:02 +0100",
+      "minecraft:snowy_slopes": "2025-12-30 20:43:54 +0100",
       "minecraft:beach": "2025-12-25 13:12:23 +0100",
       "minecraft:forest": "2025-12-22 20:05:29 +0100",
       "minecraft:taiga": "2025-12-22 19:36:58 +0100",
@@ -53,9 +54,11 @@
     "criteria": {
       "minecraft:pillager": "2025-12-25 21:03:41 +0100",
       "minecraft:skeleton": "2025-12-22 20:02:41 +0100",
+      "minecraft:zombified_piglin": "2025-12-30 21:09:10 +0100",
+      "minecraft:witch": "2025-12-27 21:42:05 +0100",
+      "minecraft:ghast": "2025-12-30 20:52:50 +0100",
       "minecraft:zombie_horse": "2025-12-27 20:45:23 +0100",
       "minecraft:enderman": "2025-12-22 19:40:33 +0100",
-      "minecraft:witch": "2025-12-27 21:42:05 +0100",
       "minecraft:spider": "2025-12-22 20:18:05 +0100",
       "minecraft:zombie": "2025-12-22 20:17:07 +0100",
       "minecraft:creeper": "2025-12-22 20:01:03 +0100",
@@ -98,7 +101,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-12-22 20:06:33 +0100",
+      "pufferfish": "2025-12-31 17:22:48 +0100",
       "bread": "2025-12-25 11:46:14 +0100",
+      "honey_bottle": "2025-12-31 16:50:27 +0100",
       "rotten_flesh": "2025-12-22 21:22:29 +0100",
       "cooked_mutton": "2025-12-22 19:50:50 +0100",
       "glow_berries": "2025-12-25 22:12:13 +0100",
@@ -110,6 +115,7 @@
       "apple": "2025-12-22 20:15:58 +0100",
       "cooked_chicken": "2025-12-22 19:49:21 +0100",
       "cooked_cod": "2025-12-22 20:01:11 +0100",
+      "cod": "2025-12-30 19:53:48 +0100",
       "cooked_salmon": "2025-12-22 19:58:44 +0100",
       "pumpkin_pie": "2025-12-28 23:35:53 +0100",
       "carrot": "2025-12-25 18:07:10 +0100"
@@ -3275,6 +3281,254 @@
   "minecraft:recipes/misc/map": {
     "criteria": {
       "has_compass": "2025-12-29 22:24:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blue_bundle": {
+    "criteria": {
+      "has_blue_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2025-12-30 16:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-12-30 16:59:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2025-12-30 17:03:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/use_lodestone": {
+    "criteria": {
+      "use_lodestone": "2025-12-30 17:14:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/orange_bundle": {
+    "criteria": {
+      "has_orange_dye": "2025-12-30 19:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2025-12-30 19:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 19:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 19:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 19:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_orange_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-12-30 19:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-12-30 19:08:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-12-30 20:48:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-12-30 20:48:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-12-31 15:38:42 +0100",
+      "minecraft:nether_wastes": "2025-12-30 20:48:58 +0100",
+      "minecraft:soul_sand_valley": "2025-12-30 20:52:14 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-12-30 20:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-12-30 20:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-12-30 20:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-12-30 20:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-12-30 20:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-12-30 20:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-12-30 20:49:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-12-30 20:52:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-12-30 20:52:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2025-12-30 21:12:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_pink_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-12-31 16:54:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2025-12-31 16:54:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-12-31 16:54:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2025-12-31 16:54:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pink_bundle": {
+    "criteria": {
+      "has_pink_dye": "2025-12-31 16:54:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-12-31 16:54:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-12-31 16:54:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2025-12-31 16:54:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2025-12-31 16:54:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2025-12-31 16:54:23 +0100"
     },
     "done": true
   },
