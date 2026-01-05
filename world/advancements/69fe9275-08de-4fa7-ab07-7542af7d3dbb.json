@@ -967,6 +967,7 @@
     "criteria": {
       "minecraft:pillager": "2025-12-25 18:29:45 +0100",
       "minecraft:skeleton": "2025-12-22 21:26:42 +0100",
+      "minecraft:zombified_piglin": "2026-01-04 21:08:44 +0100",
       "minecraft:witch": "2026-01-04 13:57:45 +0100",
       "minecraft:ghast": "2026-01-03 21:10:34 +0100",
       "minecraft:hoglin": "2026-01-03 18:11:35 +0100",
@@ -3923,6 +3924,12 @@
   "sereneseasons:recipes/tools/calendar": {
     "criteria": {
       "has_clock": "2026-01-04 17:07:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-01-04 21:25:36 +0100"
     },
     "done": true
   },
