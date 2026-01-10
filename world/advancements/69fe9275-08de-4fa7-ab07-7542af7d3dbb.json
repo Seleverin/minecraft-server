@@ -15,6 +15,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-12-22 22:17:40 +0100",
       "minecraft:snowy_slopes": "2025-12-22 21:24:46 +0100",
+      "minecraft:old_growth_pine_taiga": "2026-01-09 21:15:18 +0100",
       "minecraft:forest": "2025-12-22 20:17:10 +0100",
       "minecraft:taiga": "2025-12-22 20:13:57 +0100",
       "minecraft:deep_ocean": "2025-12-25 10:57:19 +0100",
@@ -4216,6 +4217,12 @@
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2026-01-06 14:42:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-01-09 21:33:37 +0100"
     },
     "done": true
   },
